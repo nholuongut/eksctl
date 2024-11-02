@@ -1,0 +1,7 @@
+--- 
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: cluster-1
+  zone: eu-north-1a

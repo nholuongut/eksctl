@@ -1,0 +1,14 @@
+baseURL: "https://eksctl.io"
+languageCode: en-us
+title: "eksctl"
+
+params:
+  repository: "nholuongut/eksctl"
+  brand_color: "amber-400"
+  by_nholuongut: true
+  BookSection: "*"
+
+  twitter:
+    username: "nholuongut"
+  author:
+    twitter: "nholuongut"

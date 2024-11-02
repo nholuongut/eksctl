@@ -1,0 +1,20 @@
+brew:
+  github:
+    owner: nholuongut
+    name: homebrew-tap
+
+  commit_author:
+    name: nholuongutbot
+    email: team+gitbot@nholuongut.works
+
+  folder: Formula
+
+  homepage: "https://eksctl.io/"
+
+  description: "The official CLI for Amazon EKS"
+
+  skip_upload: false
+
+  dependencies:
+    - kubernetes-cli
+    - aws-iam-authenticator

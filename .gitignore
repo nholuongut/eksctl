@@ -1,0 +1,33 @@
+# Test binary, build with `go test -c`
+*.test
+
+# Release config file backups
+.goreleaser.brew.combined.yml
+
+# Locally built binaries
+eksctl
+eksctl-integration-test
+
+# Phony directory used to generate mocks
+vendor
+
+# Jekyll
+_site
+
+# Hugo site
+site/public/
+site/resources/_gen
+
+# Do not add temporary files here
+# use ~/.config/git/ignore instead
+
+# Test coverage output
+coverage.out
+
+# Test results
+test-results
+
+integration/kubeconfig-*
+
+# Generated header file
+.license-header
